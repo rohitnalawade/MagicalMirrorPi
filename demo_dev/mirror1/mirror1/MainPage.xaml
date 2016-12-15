@@ -8,20 +8,29 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,-264,0">
-        <Button x:Name="button" Content="Load Weather" HorizontalAlignment="Left" Margin="77,174,0,0" VerticalAlignment="Top" Height="63" Width="218" Click="button_Click"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="59,242,0,0" TextWrapping="Wrap" Text="Temparature" VerticalAlignment="Top" Height="202" Width="576" FontSize="36"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" Margin="677,10,0,0" TextWrapping="Wrap" Text="Time" VerticalAlignment="Top" Height="38" Width="347" FontStyle="Italic" FontWeight="SemiBold" TextAlignment="Center" FontSize="16"/>
+        <Button x:Name="button" Content="Load Weather" HorizontalAlignment="Left" Margin="77,174,0,0"
+                VerticalAlignment="Top" Height="63" Width="218" Click="button_Click" />
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="59,242,0,0" TextWrapping="Wrap"
+                   Text="Temparature" VerticalAlignment="Top" Height="202" Width="576" FontSize="36" />
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Center" Margin="677,10,0,0" TextWrapping="Wrap" Text="Time"
+                   VerticalAlignment="Top" Height="38" Width="347" FontStyle="Italic" FontWeight="SemiBold"
+                   TextAlignment="Center" FontSize="16" />
         <!--<Button x:Name="button1" Content="Forecast" HorizontalAlignment="Left" Margin="77,433.553,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.046,-0.703" UseLayoutRounding="False" d:LayoutRounding="Auto" Height="53.303" Width="213.201" Click="button_Click1" CharacterSpacing="1" ">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="0.443"/>
             </Button.RenderTransform>
         </Button>-->
-        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="77,506,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="112" Width="395"/>
-        <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="300,174,0,0" VerticalAlignment="Top" Click="button1_Click"/>
-        <Button x:Name="button2" Content="Load Calendar" HorizontalAlignment="Left" Margin="370,174,0,0" VerticalAlignment="Top" Click="button2_Click"/>
-        <ListView x:Name="listView" HorizontalAlignment="Left" Height="337" Margin="490,174,0,0" VerticalAlignment="Top" Width="291"/>
-        <CalendarView HorizontalAlignment="Left" Margin="878,174,0,0" VerticalAlignment="Top"/>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="385,69,0,0" VerticalAlignment="Top" Width="100" />
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="77,506,0,0" TextWrapping="Wrap"
+                   Text="TextBlock" VerticalAlignment="Top" Height="112" Width="395" />
+        <Button x:Name="button1" Content="Button" HorizontalAlignment="Left" Margin="300,174,0,0"
+                VerticalAlignment="Top" Click="button1_Click" />
+        <Button x:Name="button2" Content="Load Calendar" HorizontalAlignment="Left" Margin="370,174,0,0"
+                VerticalAlignment="Top" Click="button2_Click" />
+        <ListView x:Name="listView" HorizontalAlignment="Left" Height="337" Margin="490,174,0,0"
+                  VerticalAlignment="Top" Width="291" />
+        <CalendarView HorizontalAlignment="Left" Margin="878,174,0,0" VerticalAlignment="Top" />
+        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="385,69,0,0" VerticalAlignment="Top"
+               Width="100" />
 
     </Grid>
 </Page>
