@@ -26,9 +26,9 @@
                 VerticalAlignment="Top" Click="button1_Click" />
         <Button x:Name="button2" Content="Load Calendar" HorizontalAlignment="Left" Margin="370,174,0,0"
                 VerticalAlignment="Top" Click="button2_Click" />
-        <ListView x:Name="listView" HorizontalAlignment="Left" Height="337" Margin="490,174,0,0"
+        <ListView x:Name="listView" HorizontalAlignment="Left" Height="337" Margin="594,183,0,0"
                   VerticalAlignment="Top" Width="291" />
-        <CalendarView HorizontalAlignment="Left" Margin="878,174,0,0" VerticalAlignment="Top" />
+        <CalendarView HorizontalAlignment="Left" Margin="960,183,0,0" VerticalAlignment="Top" />
         <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="385,69,0,0" VerticalAlignment="Top"
                Width="100" />
 

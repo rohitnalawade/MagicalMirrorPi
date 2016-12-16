@@ -37,10 +37,24 @@ namespace mirror1
                 currentWeather.City.Name, currentWeather.Humidity.Value,
                 currentWeather.Temperature.Value - 273.15, "Celcius", currentWeather.Weather.Value);
             var bitmapImage = new BitmapImage();
-            if (currentWeather.Weather.Value.ToLower().Contains("clouds"))
-                image.Source = new BitmapImage(new Uri("ms-appx:///Assets/clouds.png"));
-            else if (currentWeather.Weather.Value.ToUpper().Contains("sun"))
-                image.Source = new BitmapImage(new Uri("ms-appx:///Assets/sun.png"));
+            if (currentWeather.Weather.Value.ToLower().Contains("few clouds"))
+                image.Source = new BitmapImage(new Uri("ms-appx:///Assets/cloudy1.png"));
+            else if (currentWeather.Weather.Value.ToLower().Contains("clear sky"))
+                image.Source = new BitmapImage(new Uri("ms-appx:///Assets/sunny.png"));
+            else if (currentWeather.Weather.Value.ToLower().Contains("scattered clouds"))
+                image.Source = new BitmapImage(new Uri("ms-appx:///Assets/cloudy3.png"));
+            else if (currentWeather.Weather.Value.ToLower().Contains("broken clouds"))
+                image.Source = new BitmapImage(new Uri("ms-appx:///Assets/cloudy5.png"));
+            else if (currentWeather.Weather.Value.ToLower().Contains("shower rain"))
+                image.Source = new BitmapImage(new Uri("ms-appx:///Assets/shower2.png"));
+            else if (currentWeather.Weather.Value.ToLower().Contains("rain"))
+                image.Source = new BitmapImage(new Uri("ms-appx:///Assets/shower3.png"));
+            else if (currentWeather.Weather.Value.ToLower().Contains("thunderstorm"))
+                image.Source = new BitmapImage(new Uri("ms-appx:///Assets/tstorm2.png"));
+            else if (currentWeather.Weather.Value.ToLower().Contains("mist"))
+                image.Source = new BitmapImage(new Uri("ms-appx:///Assets/mist.png"));
+            else if (currentWeather.Weather.Value.ToLower().Contains("smoke"))
+                image.Source = new BitmapImage(new Uri("ms-appx:///Assets/overcast.png"));
         }
 
         private async void _timer_Tick(ThreadPoolTimer timer)

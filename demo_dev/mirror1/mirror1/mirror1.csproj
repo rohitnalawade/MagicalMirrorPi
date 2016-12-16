@@ -89,11 +89,22 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <Content Include="Assets\clouds.png" />
+    <Content Include="Assets\cloudy1.png" />
+    <Content Include="Assets\cloudy2.png" />
+    <Content Include="Assets\cloudy3.png" />
+    <Content Include="Assets\cloudy4.png" />
+    <Content Include="Assets\cloudy5.png" />
+    <Content Include="Assets\fog.png" />
+    <Content Include="Assets\hail.png" />
+    <Content Include="Assets\light_rain.png" />
+    <Content Include="Assets\mist.png" />
+    <Content Include="Assets\overcast.png" />
+    <Content Include="Assets\shower1.png" />
+    <Content Include="Assets\shower2.png" />
+    <Content Include="Assets\shower3.png" />
+    <Content Include="Assets\sunny.png" />
+    <Content Include="Assets\tstorm2.png" />
     <Content Include="holidays.csv">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Assets\sun.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="project.json" />
